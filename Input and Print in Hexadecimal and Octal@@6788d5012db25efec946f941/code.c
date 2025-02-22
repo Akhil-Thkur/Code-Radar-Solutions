@@ -7,4 +7,5 @@ int main () {
         a = n%8;
         n = ans*10+a;
     }
+    print("Hexadecimal: %d",ans);
 }
