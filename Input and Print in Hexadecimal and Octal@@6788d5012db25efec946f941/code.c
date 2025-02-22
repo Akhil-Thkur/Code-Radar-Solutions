@@ -5,7 +5,7 @@ int main () {
     ans = 0;
     while(n>0) {
         a = n%8;
-        n = ans*10+a;
+        n = n/8;
+        ans =(ans*10)+a
     }
-    print("Hexadecimal: %d",ans);
 }
