@@ -8,4 +8,5 @@ int main () {
         n = n/8;//1
         ans =(ans*10)+a
     }
+    printf(ans);
 }
