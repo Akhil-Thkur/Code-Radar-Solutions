@@ -2,7 +2,6 @@
 int main() {
     char str[100];
     scanf("%s",&str);
-    printf()
     int x;
     scanf("%d",&x);
     char str_1[100];
