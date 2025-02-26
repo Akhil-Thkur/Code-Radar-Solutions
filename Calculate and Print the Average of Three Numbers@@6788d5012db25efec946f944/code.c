@@ -4,6 +4,7 @@ int main () {
     scanf("%d",&x);
     scanf("%d",&y);
     scanf("%d",&z);
-    int avg = (x+y+z)/3
-
+    float avg = (x+y+z)/3;
+    printf("Average :%f",avg);
+    return 0;
 }
