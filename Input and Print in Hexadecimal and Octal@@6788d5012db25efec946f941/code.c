@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main () {
-    int n,a,ans:
+    int n;
     scanf("%d".&n);
     switch(n){
         case 10: printf("A"); break;
