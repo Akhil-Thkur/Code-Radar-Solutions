@@ -10,6 +10,8 @@ int main () {
         case 14: printf("Hexadecimal: E"); break;
         case 15: printf("Hexadecimal: F"); break;
     }
+    printf("\n");
+    
     int o = n+2 ;
     printf("Octal: %d",o);
 
