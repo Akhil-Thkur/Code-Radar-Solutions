@@ -1,16 +1,7 @@
-#include <stdio.h>
-
-int main() {
-    double num;
-    
-    // Prompt the user for input
-    printf("Enter a double precision floating point number: ");
-    
-    // Read the double value
-    scanf("%lf", &num);
-    
-    // Print the double value
-    printf("You entered: %lf\n", num);
-    
+#include<stdio.h>
+int main () {
+    float x;
+    scanf("%f",&x);
+    printf("You entered: %.4f",x);
     return 0;
 }
