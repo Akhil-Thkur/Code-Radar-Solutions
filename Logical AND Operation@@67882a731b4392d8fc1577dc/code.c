@@ -9,6 +9,6 @@ int main () {
     else {
         printf("False");
     }
-    return0;
+    return 0;
 
 }
