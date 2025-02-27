@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main () {
-    char str[100];
-    scanf("%s",&str);
-    if (str >= 'A' && str <= 'Z') {
+    char ch;
+    scanf("%c",&ch);
+    if (ch >= 'A' && ch <= 'Z') {
         printf("uppercase");
     }
     else {
