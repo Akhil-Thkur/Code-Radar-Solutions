@@ -3,10 +3,9 @@ int main () {
     int x,y;
     scanf("%d",&x);
     scanf("%d",&y);
-    if (x>=y || x<=y  ){
-        if( x>0 &&y>0)
-            printf("True");
+    if (x>y && x,y>0) {
         printf("True");
+        if (x<y &&)
     }
     else {
         printf("False");
