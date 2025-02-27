@@ -6,6 +6,7 @@ int main () {
     if (x>y ||x<y && x,y>0) {
         printf("True");
     }
+    else if( x<y && x,y<0)
     else {
         printf("False");
     }
