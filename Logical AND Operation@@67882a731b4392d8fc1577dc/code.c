@@ -5,7 +5,6 @@ int main () {
     scanf("%d",&y);
     if (x>y && x,y>0) {
         printf("True");
-        if (x<y &&)
     }
     else {
         printf("False");
