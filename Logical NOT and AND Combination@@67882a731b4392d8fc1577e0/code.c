@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main () {
+    int x,y;
+    scanf("%d",&x);
+    scanf("%d",&x);
+    if (x>0 && y>0) {
+        prinf("False");
+    }
+    else {
+        printf("True");
+    }
+    return 0;
+}
