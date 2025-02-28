@@ -7,10 +7,10 @@ int main () {
     scanf("%d",&D);
 
     if (A>=90) {
-        printf('A');
+        printf(A);
     } 
     else if (B>=80) {
-        printf('B');
+        printf(B);
     }
     else if (C>=70 && c<80) {
         printf('C');
