@@ -5,7 +5,7 @@ int main () {
 
 
     if (score>=90) {
-        printf('A');
+        printf("A");
     } 
     else if (score>=80) {
         printf(B);
