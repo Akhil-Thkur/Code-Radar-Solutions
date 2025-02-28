@@ -5,12 +5,13 @@ int main () {
     scanf("%d",&B);
     scanf("%d",&C);
     scanf("%d",&D);
+    scanf("%d",&F);
 
     if (A>=90) {
         printf("%d",A);
     } 
     else if (B>=80) {
-        printf(B);
+        printf("%d",B);
     }
     else if (C>=70 && c<80) {
         printf("%d",C);
