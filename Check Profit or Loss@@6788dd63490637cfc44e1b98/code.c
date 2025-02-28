@@ -7,7 +7,7 @@ int main() {
         printf("Loss");
     }
     else{
-        printf("Loss");
+        printf("Profit");
     }
     return 0;
 }
