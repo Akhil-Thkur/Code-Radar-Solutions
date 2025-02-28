@@ -6,6 +6,6 @@ int main() {
         printf("Prime");
     }
     else {
-        print("Not Prime");
+        printf("Not Prime");
     }
 }
