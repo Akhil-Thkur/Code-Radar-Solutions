@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main () {
-    int A,B,C,D,F;
+    char A,B,C,D,F;
     scanf("%d",&A);
     scanf("%d",&B);
     scanf("%d",&C);
@@ -8,10 +8,10 @@ int main () {
     scanf("%d",&F);
 
     if (A>=90) {
-        printf("%d",A);
+        printf(A);
     } 
     else if (B>=80) {
-        printf("%d",B);
+        printf(B);
     }
     else if (C>=70 && C<80) {
         printf("%d",C);
