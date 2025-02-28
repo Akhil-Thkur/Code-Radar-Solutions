@@ -14,13 +14,13 @@ int main () {
         printf(B);
     }
     else if (C>=70 && C<80) {
-        printf("%d",C);
+        printf(C);
     }
     else if (D>=60 && D<70) {
-        printf("%d",D);
+        printf(D);
     }
     else {
-        printf("%d",F);
+        printf(F);
     }
     return 0;
 }
