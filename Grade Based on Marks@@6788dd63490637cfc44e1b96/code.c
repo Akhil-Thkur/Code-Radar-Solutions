@@ -8,7 +8,7 @@ int main () {
     scanf("%d",&F);
 
     if (A>=90) {
-        printf(A);
+        printf('A');
     } 
     else if (B>=80) {
         printf(B);
