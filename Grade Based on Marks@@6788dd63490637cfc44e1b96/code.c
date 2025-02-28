@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main () {
-    char A,B,C,D,F;
+    int A,B,C,D,F;
     scanf("%d",&A);
     scanf("%d",&B);
     scanf("%d",&C);
