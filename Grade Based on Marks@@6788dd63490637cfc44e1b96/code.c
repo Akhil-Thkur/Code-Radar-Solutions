@@ -8,16 +8,16 @@ int main () {
         printf("A");
     } 
     else if (score>=80) {
-        printf(B);
+        printf("B");
     }
     else if (score>=70 && score<80) {
-        printf(C);
+        printf("C");
     }
     else if (score>=60 && score<70) {
-        printf(D);
+        printf("D");
     }
     else {
-        printf(F);
+        printf("F");
     }
     return 0;
 }
