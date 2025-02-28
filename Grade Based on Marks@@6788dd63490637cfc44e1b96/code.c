@@ -7,7 +7,7 @@ int main () {
     scanf("%d",&D);
 
     if (A>=90) {
-        printf(A);
+        printf("%d",A);
     } 
     else if (B>=80) {
         printf(B);
