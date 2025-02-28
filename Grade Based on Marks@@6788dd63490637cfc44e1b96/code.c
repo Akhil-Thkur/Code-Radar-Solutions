@@ -1,22 +1,19 @@
 #include<stdio.h>
 int main () {
-    int A,B,C,D,F;
-    scanf("%d",&A);
-    scanf("%d",&B);
-    scanf("%d",&C);
-    scanf("%d",&D);
-    scanf("%d",&F);
+    int score;
+    scanf("%d",&score);
 
-    if (A>=90) {
+
+    if (score>=90) {
         printf('A');
     } 
-    else if (B>=80) {
+    else if (score>=80) {
         printf(B);
     }
-    else if (C>=70 && C<80) {
+    else if (score>=70 && score<80) {
         printf(C);
     }
-    else if (D>=60 && D<70) {
+    else if (score>=60 && score<70) {
         printf(D);
     }
     else {
