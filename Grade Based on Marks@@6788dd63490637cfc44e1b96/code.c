@@ -13,7 +13,7 @@ int main () {
     else if (B>=80) {
         printf("%d",B);
     }
-    else if (C>=70 && c<80) {
+    else if (C>=70 && C<80) {
         printf("%d",C);
     }
     else if (D>=60 && D<70) {
