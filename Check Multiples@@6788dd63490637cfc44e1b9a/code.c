@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main() {
     int x,y;
-    scnaf("%d",&x);
-    scnaf("%d",&y);
+    scanf("%d",&x);
+    scanf("%d",&y);
     if (x%y==0) {
         printf("Yes");
     }
