@@ -3,7 +3,7 @@ int main () {
     int x;
     scanf("%d",&x);
     switch(x) {
-        Case 1
+        Case 1;
             printf("Monday");
             break
         Case 2;
