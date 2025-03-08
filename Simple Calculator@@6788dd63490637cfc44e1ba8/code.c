@@ -4,16 +4,16 @@ int main () {
     scanf("%d",&x);
     scanf("%d",&y);
     int c;
-    if (x+y=c) {
+    if (x+y==c) {
         printf("%d",c);
     }
-    else if (x/y=c) {
+    else if (x/y==c) {
         printf("%d",c);
     }
-    else if (x-y=c) {
+    else if (x-y==c) {
         printf("%d",c);
     }
-    else if (x*y=c) {
+    else if (x*y==c) {
         printf("%d",c);
     }
 }
