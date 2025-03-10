@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main () {
-    int x,y;
+    int x,y,c;
     scanf("%d",&x);
     scanf("%d",&y);
-    int c;
+    scanf("%d",&c);
     if (x+y==c) {
         printf("%d",c);
     }
