@@ -21,7 +21,7 @@ int main() {
         if (y != 0) {
             printf("%d", x / y);
         } else {
-            printf("Error");
+            printf("error");
         }
     } 
     else {
