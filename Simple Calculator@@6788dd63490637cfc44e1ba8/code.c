@@ -18,6 +18,6 @@ int main () {
         printf("%d", x/y);
     }
     else {
-        printf"IOnvalid error"
+        printf("IOnvalid error");
     }
 }
