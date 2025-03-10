@@ -4,31 +4,43 @@ int main () {
     scanf("%d",&x);
     switch (x) {
         case 1:
-            printf("31"); // jan
+            printf("31");
+            break // jan
         case 2:
-            printf("28"); //feb
+            printf("28");
+            break //feb
         case 3:
-            printf("31"); // march
+            printf("31");
+            break // march
         case 4:
-            printf("30"); // april
+            printf("30");
+            break // april
         case 5:
-            printf("31"); // may
+            printf("31");
+            break // may
         case 6:
-            printf("30"); // june 
+            printf("30");
+            break // june 
         case 7:
-            printf("31"); // july
+            printf("31");
+            break // july
         case 8:
-            printf("31"); // aug
+            printf("31");
+            break // aug
         case 9:
-            printf("30"); // sept
+            printf("30");
+            break // sept
         case 10:
-            printf("31"); //out
+            printf("31");
+            break //out
         case 11:
-            printf("30");   // nov    
+            printf("30");
+            break   // nov    
         case 12:
             printf("31");
-        default (
+            break
+        default: 
             printf("nothing");
-        )                                         
+                                             
     }
 }
