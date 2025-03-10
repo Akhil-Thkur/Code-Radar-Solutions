@@ -5,40 +5,40 @@ int main () {
     switch (x) {
         case 1:
             printf("31");
-            break // jan
+            break; // jan
         case 2:
             printf("28");
-            break //feb
+            break; //feb
         case 3:
             printf("31");
-            break // march
+            break; // march
         case 4:
             printf("30");
-            break // april
+            break; // april
         case 5:
             printf("31");
-            break // may
+            break; // may
         case 6:
             printf("30");
-            break // june 
+            break; // june 
         case 7:
             printf("31");
-            break // july
+            break; // july
         case 8:
             printf("31");
-            break // aug
+            break; // aug
         case 9:
             printf("30");
-            break // sept
+            break; // sept
         case 10:
             printf("31");
-            break //out
+            break; //out
         case 11:
             printf("30");
-            break   // nov    
+            break;   // nov    
         case 12:
             printf("31");
-            break
+            break;
         default: 
             printf("nothing");
                                              
