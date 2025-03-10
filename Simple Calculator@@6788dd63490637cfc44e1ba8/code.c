@@ -6,15 +6,18 @@ int main () {
     scanf("%d",&y);
     scanf("%c",&c);
     if (c=='+') {
-        printf("%d",x+y);
+        printf("%d", x+y);
     }
     else if (c=='-') {
-        printf("%d",x-y);
+        printf("%d", x-y);
     }
     else if (c=='*') {
-        printf("%d",x*y);
+        printf("%d", x*y);
     }
     else if (c=='/') {
-        printf("%d",x/y);
+        printf("%d", x/y);
+    }
+    else {
+        printf"IOnvalid error"
     }
 }
