@@ -7,9 +7,9 @@ int main(){
         count++;
         }
     }if(count==2){
-        printf("Prime");
+        printf("NotPrime");
     }else{
-        printf("Not Prime");
+        printf("Prime");
     }
     return 0;
 }
