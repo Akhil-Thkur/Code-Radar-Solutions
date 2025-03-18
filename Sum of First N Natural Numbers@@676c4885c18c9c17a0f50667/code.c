@@ -2,7 +2,8 @@
 int main () {
     int x;
     scanf("%d",&x);
-    for (int i=1;i<=x;i++) {
+    int i =1;
+    for ( i=1;i<=x;i++) {
         printf("%d",i);
     }
     int sum = i+1;
