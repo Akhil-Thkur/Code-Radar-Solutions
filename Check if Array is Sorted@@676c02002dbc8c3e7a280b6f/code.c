@@ -31,9 +31,9 @@ int main() {
 
     // Printing the sorted array
     printf("");
-    // for (i = 0; i < 5; i++) {
-    //     printf("%d ", a[i]);  // Corrected printf statement
-    // }
+    for (i = 0; i < 5; i++) {
+        printf("%d ", a[i]);  // Corrected printf statement
+    }
     // printf("\n");
 
     // Check and display if the array is sorted
