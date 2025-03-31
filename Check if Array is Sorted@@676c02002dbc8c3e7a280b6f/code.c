@@ -30,7 +30,7 @@ int main() {
     }
 
     // Printing the sorted array
-    printf("Sorted array elements: ");
+    printf("");
     // for (i = 0; i < 5; i++) {
     //     printf("%d ", a[i]);  // Corrected printf statement
     // }
