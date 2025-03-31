@@ -34,13 +34,13 @@ int main() {
     for (i = 0; i < 5; i++) {
         printf("%d ", a[i]);  // Corrected printf statement
     }
-    printf("\n");
+    // printf("\n");
 
     // Check and display if the array is sorted
     if (isSorted) {
-        printf("The array is sorted in ascending order.\n");
+        printf("Sorted");
     } else {
-        printf("The array is NOT sorted.\n");
+        printf("NOT Sorted");
     }
 
     return 0;
