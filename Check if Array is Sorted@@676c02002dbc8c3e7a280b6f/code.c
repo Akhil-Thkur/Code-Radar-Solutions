@@ -4,7 +4,7 @@ int main() {
     int a[5], i, j, temp;
 
     // Input the array
-    printf("Enter 5 elements for the array: ");
+    printf("");
     for (i = 0; i < 5; i++) {
         scanf("%d", &a[i]);
     }
@@ -31,9 +31,9 @@ int main() {
 
     // Printing the sorted array
     printf("Sorted array elements: ");
-    for (i = 0; i < 5; i++) {
-        printf("%d ", a[i]);  // Corrected printf statement
-    }
+    // for (i = 0; i < 5; i++) {
+    //     printf("%d ", a[i]);  // Corrected printf statement
+    // }
     // printf("\n");
 
     // Check and display if the array is sorted
