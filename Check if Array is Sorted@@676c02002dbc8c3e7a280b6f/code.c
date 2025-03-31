@@ -14,6 +14,12 @@ int main () {
             }
         }
     }
+    int isSorted = 1; // Assume it's sorted
+    for (i = 0; i < 4; i++) {  // Only check up to the second last element
+        if (a[i] > a[i + 1]) { // If any element is greater than the next, it's not sorted
+            isSorted = 0;
+            break;
+        }
     printf("array element : ");
     for(i=0;i<5;i++){
         printf("%d",&a[i]);
