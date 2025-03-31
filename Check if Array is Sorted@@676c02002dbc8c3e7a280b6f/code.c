@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main () {
     int a[5],i,j,temp;
-    printf("");
+    printf("Enter the array : ");
     for (i=0;i<5;i++){
         scanf("%d",&a[i]);
     }
@@ -14,7 +14,7 @@ int main () {
             }
         }
     }
-    printf("");
+    printf("array element : ");
     for(i=0;i<5;i++){
         printf("%d",&a[i]);
     }
