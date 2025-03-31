@@ -18,4 +18,9 @@ int main () {
     for(i=0;i<5;i++){
         printf("%d",&a[i]);
     }
+    if (isSorted) {
+        printf("Sorted");
+    } else {
+        printf(" NOT Sorted");
+    }
 }
