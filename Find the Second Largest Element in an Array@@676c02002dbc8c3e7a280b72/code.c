@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<limits.h>
+#include <limits.h>
 int main() {
     int size;
     scanf("%d",&size);
@@ -18,7 +18,8 @@ int main() {
             sMax=a[i];
         }
 
-    }if(sMax==INT_MIN){
+    }
+    if(sMax==INT_MIN){
         printf("-1");
         return 0;
     }
