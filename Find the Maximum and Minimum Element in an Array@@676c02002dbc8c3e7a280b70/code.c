@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main() {
-    int a[i],size,min,max;
+    int a[100],size,min,max;
     scanf("%d",&size);
     for(i=1;i<size;i++){
         scanf("%d",&a[i]);
