@@ -8,7 +8,7 @@ int main() {
     }
     max =a[0];
     sMax = a[0];
-    for(int i =0,i<size;i++){
+    for(int i =0;i<size;i++){
         if(a[i]>max){
             sMax =max;
             max=a[i];
