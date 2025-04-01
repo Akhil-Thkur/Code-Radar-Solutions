@@ -14,7 +14,7 @@ int main() {
             sMax =max;
             max=a[i];
         }
-        if(a[i]>max && a[i]<sMax){
+        if(a[i]<max && a[i]>sMax){
             sMax=a[i];
         }
 
@@ -24,5 +24,6 @@ int main() {
         return 0;
     }
     printf("%d",sMax);
+
 
 }
