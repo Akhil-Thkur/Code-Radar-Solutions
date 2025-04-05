@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&x);
     for(int i=2;i<=x;i--){
         for(int j =1;j<=i;j++){
-            priontf("%d ",j);
+            printf("%d ",j);
         }
         printf("\n");
     }
