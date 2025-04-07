@@ -1,4 +1,4 @@
-#include<Stdio.h>
+#include<stdio.h>
 int main() {
     inbt x;
     scanf("%d",&x);
