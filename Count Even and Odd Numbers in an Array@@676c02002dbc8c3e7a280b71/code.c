@@ -20,8 +20,8 @@ int main() {
         }
     }
 
-    printf("Even count: %d\n", evenCount);
-    printf("Odd count: %d\n", oddCount);
+    printf("%d\n", evenCount);
+    printf("%d\n", oddCount);
 
     return 0;
 }
