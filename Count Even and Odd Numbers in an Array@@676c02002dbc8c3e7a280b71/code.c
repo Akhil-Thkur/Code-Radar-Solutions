@@ -20,7 +20,7 @@ int main() {
         }
     }
 
-    printf("%d%d", evenCount,oddCount);
+    printf("%d %d ", evenCount,oddCount);
 
     return 0;
 }
