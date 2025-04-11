@@ -14,9 +14,9 @@ int main() {
 
     for (int i = 0; i < x; i++) {
         if (arr[i] % 2 == 0) {
-            evenCount++;
+            evenCount += 1;
         } else {
-            oddCount++;
+            oddCount += 1;
         }
     }
 
