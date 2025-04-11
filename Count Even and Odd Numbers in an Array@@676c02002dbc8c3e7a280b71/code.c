@@ -9,7 +9,7 @@ int main(){
     int sumEven = 0;
     int sumOdd = 0;
     for(int i =0 ;i<=x-1;i++){
-        if(i%2=0){
+        if(i%2==0){
             sumEven = sumEven +a[i];
         }
         else {
