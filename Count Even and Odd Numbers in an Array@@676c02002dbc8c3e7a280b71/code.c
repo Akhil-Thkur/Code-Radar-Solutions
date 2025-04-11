@@ -1,20 +1,27 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int x;
-    scanf("%d",&x);
+    scanf("%d", &x);
     int arr[x];
-    for(int i=0;i<x;i++){
-        scanf("%d",&arr[i]);
+
+    for (int i = 0; i < x; i++) {
+        scanf("%d", &arr[i]);
     }
-    int sumEven = 0;
-    int sumOdd = 0;
-    for(int i =0 ;i<x;i++){
-        if(arr[i]%2==0){
-            sumEven++;
+
+    int evenCount = 0;
+    int oddCount = 0;
+
+    for (int i = 0; i < x; i++) {
+        if (arr[i] % 2 == 0) {
+            evenCount++;
+        } else {
+            oddCount++;
         }
-        else {
-            sumOdd++;
-        }
-        printf("%d%d",sumEven,sumOdd);
     }
+
+    printf("Even count: %d\n", evenCount);
+    printf("Odd count: %d\n", oddCount);
+
+    return 0;
 }
